@@ -1,0 +1,107 @@
+.testimonials
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  height: 640px
+  background-color: #1db1ae
+
+  h1
+    margin: 80px 0
+    font-family: "Nexa W01 Heavy", Arial
+    font-size: 30px
+    color: white
+
+  .cardsSection:before
+    display: block
+    content: ''
+    width: 31px
+    height: 440px
+    background-image: url("../../../assets/main/testimonials/Arrow.png")
+    background-repeat: no-repeat
+    background-position-x: 0
+    background-position-y: calc((440px - 57px - 200px)/2)
+    cursor: pointer
+
+  .cardsSection:after
+    display: block
+    content: ''
+    width: 31px
+    height: 440px
+    background-image: url("../../../assets/main/testimonials/Arrow1.png")
+    background-repeat: no-repeat
+    background-position-x: 0
+    background-position-y: calc((440px - 57px - 150px)/2)
+    cursor: pointer
+
+  .cardsSection
+    display: flex
+    flex-direction: row
+    justify-content: center
+    margin-bottom: 40px
+
+    .card
+      position: relative
+      width: 267px
+      height: 440px
+      margin: 0 35px
+
+      .container
+        position: relative
+        width: 100%
+
+        .divider
+          width: 100%
+          height: 8px
+          border-bottom: 2px solid white
+          border-left: 2px solid white
+          border-right: 2px solid white
+
+        .divider:before
+          position: absolute
+          height: 18px
+          left: 50%
+          top: 8px
+          content: ''
+          border-left: 2px solid white
+
+      .description
+        font-family: 'OpenSans Regular', Arial
+        font-size: 18px
+        line-height: 25px
+        text-align: center
+        color: white
+        margin-bottom: 18px
+
+      .image
+        margin: 38px 0 10px 0
+        height: 90px
+
+        background-repeat: no-repeat
+        background-position-y: 0
+        background-position-x: calc((267px - 90px)/2)
+
+      h3
+        font-family: OpenSans, Arial
+        text-align: center
+        color: white
+        margin-bottom: 5px
+      p
+        text-align: center
+        font-family: OpenSans, Arial
+        font-size: 16px
+        color: white
+
+    .card1
+      .image
+        background-image: url("../../../assets/main/testimonials/cardPicture1.png")
+
+    .card2
+      .image
+        background-image: url("../../../assets/main/testimonials/cardPicture2.png")
+
+    .card3
+      .image
+        background-image: url("../../../assets/main/testimonials/cardPicture3.png")
+
+

@@ -1,0 +1,87 @@
+.container
+  display: flex
+  flex-direction: row
+  height: 160px
+
+
+  .left
+    width: calc((1400px - 946px)/2)
+    height: 100%
+    background-image: url("../../assets/footer/Logo.png")
+    background-repeat: no-repeat
+    background-position: 130px 60px
+    background-color: #262626
+
+  .center, .right
+    width: 947px
+    background-color: #262626
+
+    .top
+      display: flex
+      flex-direction: row
+      justify-content: space-between
+      align-items: flex-end
+      height: 50%
+      padding-bottom: 14px
+      border-bottom: 1px solid rgba(gray, 0.9)
+
+      a
+        font-family: 'Nexa W01 Heavy', Arial
+        font-size: 13px
+        font-weight: bold
+        text-decoration: none
+        color: white
+
+      select
+        font-family: "Nexa W01 Heavy", Arial
+        font-size: 13px
+        font-weight: bold
+        padding-right: 16px
+        margin-right: 15px
+        color: white
+        background-color: #262626
+        border: none
+        -webkit-appearance: none
+        background-image: url("../../assets/footer/arrow-down-sign-to-select.png")
+        background-repeat: no-repeat
+        background-position: 90% 30%
+        background-size: 7px 7px
+
+
+    .bottom
+      display: flex
+      flex-direction: row
+      justify-content: flex-start
+      align-items: flex-start
+      height: 50%
+
+      a
+        font-family: 'Nexa W01 Heavy', Arial
+        font-size: 13px
+        margin: 14px 40px 0 0
+        text-decoration: none
+        color: gray
+
+  a:hover
+    cursor: pointer
+
+
+
+  .right
+    width: calc((1400px - 946px)/2)
+
+
+    .wrap
+      width: 95px
+      height: 100%
+
+      .top
+        a
+         color: #1db1ae
+
+      .bottom
+        a
+          margin-right: 18px
+          i
+            font-size: 22px
+            color: #909393

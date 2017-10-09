@@ -1,0 +1,39 @@
+<section class="container">
+  <div class="left">
+
+  </div>
+  <div class="center">
+    <div class="top">
+      <a *ngFor="let arrcontent of listOfLinks" href={{arrcontent.href}}>
+        {{arrcontent.name | uppercase}}
+      </a>
+      <select>
+        <option value="english">ENGLISH</option>
+      </select>
+    </div>
+    <div class="bottom">
+      <a href="/">Privacy</a>
+      <a href="/">Terms</a>
+      <a href="/">Safety</a>
+      <a href="/">Help</a>
+    </div>
+  </div>
+  <div class="right">
+    <section class="wrap">
+      <div class="top">
+        <a href="/">MIN BOKNING</a>
+      </div>
+      <div class="bottom">
+        <a href="/">
+          <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        </a>
+        <a href="/">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+        </a>
+        <a href="/">
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </a>
+      </div>
+    </section>
+  </div>
+</section>

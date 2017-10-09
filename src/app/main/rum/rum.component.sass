@@ -1,0 +1,82 @@
+.lime
+  height: 636px
+  background-color: #95e7d1
+
+  .content
+    display: flex
+    flex-direction: row
+    width: 946px
+    height: 100%
+    margin: auto
+
+    .left
+      width: 50%
+      background-image: url("../../../assets/main/rum/image.png")
+      background-repeat: no-repeat
+      background-position: 0 150px
+
+    .right
+      width: 50%
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: flex-start
+      color: white
+
+      h1
+        font-family: "Nexa W01 Heavy", Arial
+        font-size: 40px
+        margin-bottom: 30px
+
+      p
+        font-family: 'OpenSans', Arial
+        font-size: 20px
+
+.white
+  height: 150px
+
+  .content
+    width: 946px
+    height: 100%
+    margin: auto
+
+    .slider
+      -webkit-appearance: none
+      width: 100%
+      margin-top: calc(130px/2 - 15px)
+      margin-bottom: 20px
+      height: 3px
+      background-image: -webkit-gradient(linear,left top,right top,color-stop(0.33, #1DB1AE),color-stop(0.33, #C5C5C5))
+      outline: none
+      opacity: 0.7
+      -webkit-transition: .2s
+      transition: opacity .2s
+
+
+    .slider:hover
+      opacity: 1
+
+    .slider::-webkit-slider-thumb
+      -webkit-appearance: none
+      appearance: none
+      width: 15px
+      height: 15px
+      border-radius: 50%
+      background: #1db1ae
+      cursor: pointer
+
+    .descriptionContainer
+      display: flex
+      flex-direction: row
+      justify-content: space-between
+
+      .description
+        h1
+          text-align: center
+          font-family: "Nexa W01 Heavy", Arial
+          font-weight: bold
+
+        p
+          font-family: 'OpenSans Semibold', Arial
+          text-align: center
+          opacity: 0.5
