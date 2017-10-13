@@ -1,5 +1,5 @@
 <div class="nav">
-  <a *ngFor="let arrcontent of listOfLinks" href={{arrcontent.href}}>
+  <a *ngFor="let arrcontent of listOfLinks" routerLink={{arrcontent.href}} routerLinkActive="active">
     {{arrcontent.name | uppercase}}
   </a>
 </div>

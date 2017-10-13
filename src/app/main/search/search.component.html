@@ -1,37 +1,37 @@
-<section class="search">
+<section class="container search">
   <h1>LOREM IPSUM DOLOR</h1>
   <p class="semiHeader">Find and book conference rooms, workspace and pop-up offices</p>
-  <div class="searchSection">
-    <input type="text" placeholder="Location"/>
-    <input type="date"/>
+  <form class="searchSection" action="/">
+    <input type="text" placeholder="Location" name="location"/>
+    <input type="date" name="date"/>
     <div class="checkBoxContainer">
       <label class="checkBox">
-        <input type="checkbox">
+        <input type="checkbox" name="xs">
         <p class="big">XS</p>
         <p>2-4 personer</p>
       </label>
       <label class="checkBox">
-        <input type="checkbox">
+        <input type="checkbox" name="s">
         <p class="big">S</p>
         <p>5-8 personer</p>
       </label>
       <label class="checkBox">
-        <input type="checkbox">
+        <input type="checkbox" name="m">
         <p class="big">M</p>
         <p>9-12 personer</p>
       </label>
       <label class="checkBox">
-        <input type="checkbox">
+        <input type="checkbox" name="l">
         <p class="big">L</p>
         <p>13-20 personer</p>
       </label>
       <label class="checkBox">
-        <input type="checkbox">
+        <input type="checkbox" name="Alla">
         <p class="big">Alla</p>
       </label>
     </div>
     <button class="searchButton">sok</button>
-  </div>
+  </form>
   <p>
     For bigger quotes <a href="/">contact us</a>
   </p>

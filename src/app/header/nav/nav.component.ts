@@ -10,19 +10,19 @@ export class NavComponent implements OnInit {
  listOfLinks = [
    {
      name: 'about',
-     href: '/'
+     href: '/about'
    },
    {
      name: 'faq',
-     href: '/'
+     href: '/faq'
    },
    {
      name: 'blog',
-     href: '/'
+     href: '/blog'
    },
    {
      name: 'support',
-     href: '/'
+     href: '/support'
    }
  ];
   constructor() { }
